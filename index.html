@@ -21,9 +21,9 @@
     <div class="uk-navbar-right">
 
         <ul class="uk-navbar-nav uk-light">
-            <li><a class="uk-button-text uk-text-capitalize" href="#about">About</a></li>
-            <li><a class="uk-button-text uk-text-capitalize" href="#projects">Projects</a></li>
-            <li><a class="uk-button-text uk-text-capitalize" href="mailto:">Contact</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll>Projects</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="mailto:" uk-scroll>Contact</a></li>
 
         </ul>
 
@@ -51,10 +51,10 @@
     <div class="uk-offcanvas-bar uk-flex uk-flex-column">
 
         <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-            <li class="uk-active"><a href="#">Home</a></li>
-            <li class="uk-active"><a href="#about">About</a></li>
-            <li class="uk-active"><a href="#projects">Projects</a></li>
-            <li class="uk-active"><a href="mailto:">Contact</a></li>
+            <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
+            <li class="uk-active"><a href="#about" uk-scroll>About</a></li>
+            <li class="uk-active"><a href="#projects" uk-scroll>Projects</a></li>
+            <li class="uk-active"><a href="mailto:">Contact</a></li> <!--- change to ur email-->
 
         </ul>
 
@@ -65,11 +65,10 @@
 </div>
 
 <!-- Navigation Bar Mobile Ends -->
-
 <!-- Home -->
 <section class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
     <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">I'm John Doe, a front-end web developer, <br>graphic designer, and an UI/UX designer.</h1>
-    <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary">About Me</a>
+    <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About Me</a>
 
 
 </section>
@@ -124,7 +123,7 @@
 
 </section>
 <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
-
+</div>
 <!-- Projects Section Ends -->
     
 </body>
